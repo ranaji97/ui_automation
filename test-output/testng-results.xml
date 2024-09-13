@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser opened]]>
+    </line>
+    <line>
+      <![CDATA[closeBrowser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-09-13T22:01:28 IST" name="Default suite" finished-at="2024-09-13T22:02:24 IST" duration-ms="55504">
+    <groups>
+    </groups>
+    <test started-at="2024-09-13T22:01:28 IST" name="Default test" finished-at="2024-09-13T22:02:24 IST" duration-ms="55504">
+      <class name="testscript.AmazonTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testscript.AmazonTest@77847718]" started-at="2024-09-13T22:01:29 IST" name="openBrowser" finished-at="2024-09-13T22:01:41 IST" duration-ms="12784" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="searchAndPrintProducts()[pri:0, instance:testscript.AmazonTest@77847718]" started-at="2024-09-13T22:01:41 IST" name="searchAndPrintProducts" finished-at="2024-09-13T22:02:24 IST" duration-ms="42565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndPrintProducts -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testscript.AmazonTest@77847718]" started-at="2024-09-13T22:02:24 IST" name="closeBrowser" finished-at="2024-09-13T22:02:24 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closeBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testscript.AmazonTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
